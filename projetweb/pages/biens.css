@@ -1,0 +1,130 @@
+.articles {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.articles__title {
+  font-size: 30px;
+  color: #333;
+  border-bottom: 4px solid #0b004b;
+  display: inline;
+}
+
+.articles__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.divtest{
+  background-color: black;
+}
+
+.article {
+  width: 25%;
+  height: 300px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 35px;
+}
+
+.article__filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+.article__name {
+  color: white;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article:hover .article__icon {
+  transform: translateY(0);
+}
+
+.article__icon {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(100%);
+}
+
+
+/*Filtre des Biens*/
+.articles__filter{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  color: white;
+  background-color: #0b004b;
+}
+
+.articles__filter--title{
+  margin-top: 20px;
+}
+
+.articles__filter--options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Ajoutez une marge pour l'espacement */
+}
+
+.articles__filter--check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Ajoutez une marge pour l'espacement */
+}
+
+.filter-label {
+  text-align: start;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.filter-label--check label {
+  margin: 10px;
+  flex-direction: column;
+}
+
+.filter-label label {
+  display: block; /* Afficher le texte du label sur une ligne séparée */
+  margin: 10px;
+}
+/*Filtre des Biens*/
+
+.container-pageLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-pageLinks input {
+  /* Ajoutez des styles supplémentaires au besoin */
+  margin: 0 5px; /* Ajoutez une marge entre les boutons */
+}

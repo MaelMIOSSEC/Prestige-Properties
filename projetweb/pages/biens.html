@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fichier Test</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/db1bcb269d.js" crossorigin="anonymous"></script>
+  <script src="../js/js.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link rel="stylesheet" href="biens.css" type="text/css" />
+</head>
+
+<body onload="loadXMLDoc()">
+  <div class="header">
+    <div class="header__texture"></div>
+    <div class="header__mask">
+      <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="fff"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="header__navbar">
+        <div class="header__navbar--logo">
+          <h1 class="header__navbar--logo--title">Prestige Properties</h1>
+        </div>
+        <div class="header__navbar--menu">
+          <a href="" class="header__navbar--menu--link"><i class="fa-brands fa-sellcast"></i> Vendre</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-phone"></i> Nous Contacter</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-circle-info"></i> A Propos</a>
+          <div class="header__navbar--toggle">
+            <span class="header__navbar--toggle--icons"></span>
+          </div>
+        </div>
+      </div>
+      <div class="header__slogan">
+        <h1 class="h__slogan--title">Découvrez le luxe immobiliers.</h1>
+        <br>
+        <button class="btn btn-danger" onclick="window.location.href = '../index.html';"><i class="fa-solid fa-arrow-rotate-left"></i> Retour à l'accueil</button>
+        <button class="btn btn-danger" onclick="window.location.href = 'Favorits.html';"><i class="fa-solid fa-star"></i>Biens Favorits</button>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <form class="container">
+    <div class="searchForm">
+      <input type="text" class="form-control me-2" id="referenceInput" placeholder="Référence du bien" />
+      <input type="text" class="form-control me-2" id="priceInput" placeholder="Prix du bien" />
+      <button type="button" class="btn btn-outline-success" onclick="Search()">Rechercher</button>
+    </div>
+  </form>
+  <div id="searchResults"></div>
+  <br /><br />
+  <div class="container">
+    <div class="articles__filter">
+      <div class="articles__filter--title">
+        <h2>Trouvez le bien qu'il vous faut :</h2>
+      </div>
+      <div class="articles__filter--options">
+        <div class="filter-label">
+          <label for="Prix minimum">Prix minimum:</label>
+          <input type="text" id="PrixMinimum" placeholder="000000" style="border-radius: 10px" required />
+          <span class="euro-symbol">€</span>
+        </div>
+        <div class="filter-label">
+          <label for="Prix maximum">Prix maximum:</label>
+          <input type="text" id="PrixMaximum" placeholder="000000" style="border-radius: 10px" required />
+          <span class="euro-symbol">€</span>
+        </div>
+        <div class="filter-label">
+          <label for="Quartier">Quartier :</label>
+          <input type="text" id="Quartier" placeholder="Quartier, Ville, Code Postal..." style="border-radius: 10px"
+            required />
+        </div>
+        <div class="filter-label">
+          <label for="Type">Trier par Prix :</label>
+          <div class="filter-label-radio">
+            <input type="radio" name="sort" value="asc" id="sortAsc" />
+            <label for="sortAsc">Ascendant</label>
+          </div>
+          <div class="filter-label-radio">
+            <input type="radio" name="sort" value="desc" id="sortDesc" />
+            <label for="sortDesc">Descendant</label>
+          </div>
+        </div>
+      </div>
+      <div class="articles__filter--check">
+        <div class="filter-label--check">
+          <input type="checkbox" id="maisonCheckbox" name="type" />
+          <label for="scales">Maison</label>
+          <input type="checkbox" id="appartementCheckbox" name="type" />
+          <label for="scales">Appartement</label>
+          <input type="checkbox" id="villaCheckbox" name="type" />
+          <label for="scales">Villa</label>
+          <input type="checkbox" id="penthouseCheckbox" name="type" />
+          <label for="scales">Penthouse</label>
+          <input type="checkbox" id="chaletCheckbox" name="type" />
+          <label for="scales">Chalet</label>
+        </div>
+        <div class="filter-label--check">
+          <input class="btn btn-danger" type="button" onclick="filter()" value="Rechercher" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="data">
+
+  </div>
+  <div class="container-pageLinks">
+    <div id="pageLinks"></div>
+  </div>
+  <br><br>
+  <div style="display: none; width: 1200px; justify-content: space-around;">
+    <div>
+      Mes Biens Favorits
+      <br>
+      <br>
+      <table id="tblFavorite">
+        <tr>
+          <th>ID</th>
+          <th>Prix</th>
+          <th>Localisation</th>
+          <th>Type de Bien</th>
+          <th>Nombre de Pièces</th>
+          <th>Surface</th>
+          <th>Sejour</th>
+          <th>Description</th>
+          <th>Image</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <div class="contenu-footer">
+      <div class="bloc footer-contact">
+        <h3>Nos Services</h3>
+        <p>Vente</p>
+        <p>Location</p>
+        <p>Achat</p>
+      </div>
+      <div class="bloc footer-contact">
+        <h3>Restons en Contact</h3>
+        <p>55-55-55-55-55</p>
+        <p>Suppor.Client@gmail.com</p>
+        <p>6 rue de l'invention, Brest, 29200</p>
+      </div>
+      <div class="block footer-horaire">
+        <h3>Les horraires</h3>
+        <p>✔️ Lun 9h30-18h30</p>
+        <p>✔️ Mar 9h30-18h30</p>
+        <p>✔️ Mer 9h30-18h30</p>
+        <p>✔️ Jeu 9h30-18h30</p>
+        <p>✔️ Ven 9h30-18h30</p>
+        <p>✔️ Sam 9h30-12h00</p>
+        <p>❌ Dim closed</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

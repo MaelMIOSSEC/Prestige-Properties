@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="../js/script.js"></script>
+  <script src="https://kit.fontawesome.com/db1bcb269d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+</head>
+<style>
+  /*Formulaire*/
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .articles {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .articles__title {
+    font-size: 30px;
+    color: #333;
+    border-bottom: 4px solid #0b004b;
+    display: inline;
+  }
+
+  .articles__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .article {
+    width: 25%;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .article__filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  }
+
+  .article__name {
+    color: white;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article:hover .article__icon {
+    transform: translateY(0);
+  }
+
+  .article__icon {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+
+  /*Filtre des Biens*/
+  .articles__filter {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: #0b004b;
+  }
+
+  .articles__filter--title {
+    margin-top: 20px;
+  }
+
+  .articles__filter--options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* Ajoutez une marge pour l'espacement */
+  }
+
+  .articles__filter--check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* Ajoutez une marge pour l'espacement */
+  }
+
+  .filter-label {
+    text-align: start;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+
+  .filter-label--check label {
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .filter-label label {
+    display: block;
+    /* Afficher le texte du label sur une ligne séparée */
+    margin: 10px;
+  }
+
+  /*Filtre des Biens*/
+
+  #pageLinks {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filter-label-radio {
+    text-align: center;
+    display: flex;
+  }
+
+  /*Formulaire*/
+
+  .container-pageLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-pageLinks input {
+    /* Ajoutez des styles supplémentaires au besoin */
+    margin: 0 5px;
+    /* Ajoutez une marge entre les boutons */
+  }
+</style>
+
+<body>
+
+  <div class="header">
+    <div class="header__texture"></div>
+    <div class="header__mask">
+      <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="fff"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="header__navbar">
+        <div class="header__navbar--logo">
+          <h1 class="header__navbar--logo--title">Prestige Properties</h1>
+        </div>
+        <div class="header__navbar--menu">
+          <a href="" class="header__navbar--menu--link"><i class="fa-brands fa-sellcast"></i> Vendre</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-phone"></i> Nous Contacter</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-circle-info"></i> A Propos</a>
+          <div class="header__navbar--toggle">
+            <span class="header__navbar--toggle--icons"></span>
+          </div>
+        </div>
+      </div>
+      <div class="header__slogan">
+        <h1 class="h__slogan--title">Découvrez le luxe immobiliers.</h1>
+        <br><br>
+        <button type="button" onclick="loadXMLDoc()" class="btn btn-danger">
+          <i class="fa-solid fa-house"></i> Mes Biens Immobiliers
+        </button>
+        <button type="button" onclick="showAddForm()" class="btn btn-danger" id="btnAdd">
+          <i class="fa-solid fa-plus"></i>Ajouter un Bien
+        </button>
+        <button type="button" onclick="window.location.href = 'Favorits.html';" class="btn btn-danger" id="btnAdd">
+          <i class="fa-solid fa-star"></i>Mes Biens Favoris
+        </button>
+      </div>
+    </div>
+  </div>
+  <br />
+  <form class="container">
+    <div class="searchForm">
+      <input type="text" class="form-control me-2" id="referenceInput" placeholder="Référence du bien" />
+      <input type="text" class="form-control me-2" id="priceInput" placeholder="Prix du bien" />
+      <button type="button" class="btn btn-outline-success" onclick="Search()">Rechercher</button>
+    </div>
+  </form>
+  <div id="searchResults"></div>
+  <br /><br />
+  <div class="container">
+    <div class="articles__filter">
+      <div class="articles__filter--title">
+        <h2>Trouvez le bien qu'il vous faut :</h2>
+      </div>
+      <div class="articles__filter--options">
+        <div class="filter-label">
+          <label for="Prix minimum">Prix minimum:</label>
+          <input type="text" id="PrixMinimum" placeholder="000000" style="border-radius: 10px" required />
+          <span class="euro-symbol">€</span>
+        </div>
+        <div class="filter-label">
+          <label for="Prix maximum">Prix maximum:</label>
+          <input type="text" id="PrixMaximum" placeholder="000000" style="border-radius: 10px" required />
+          <span class="euro-symbol">€</span>
+        </div>
+        <div class="filter-label">
+          <label for="Quartier">Quartier :</label>
+          <input type="text" id="Quartier" placeholder="Quartier, Ville, Code Postal..." style="border-radius: 10px"
+            required />
+        </div>
+        <div class="filter-label">
+          <label for="Type">Trier par Prix :</label>
+          <div class="filter-label-radio">
+            <input type="radio" name="sort" value="asc" id="sortAsc" />
+            <label for="sortAsc">Ascendant</label>
+          </div>
+          <div class="filter-label-radio">
+            <input type="radio" name="sort" value="desc" id="sortDesc" />
+            <label for="sortDesc">Descendant</label>
+          </div>
+        </div>
+      </div>
+      <div class="articles__filter--check">
+        <div class="filter-label--check">
+          <input type="checkbox" id="maisonCheckbox" name="type" />
+          <label for="scales">Maison</label>
+          <input type="checkbox" id="appartementCheckbox" name="type" />
+          <label for="scales">Appartement</label>
+          <input type="checkbox" id="villaCheckbox" name="type" />
+          <label for="scales">Villa</label>
+          <input type="checkbox" id="penthouseCheckbox" name="type" />
+          <label for="scales">Penthouse</label>
+          <input type="checkbox" id="chaletCheckbox" name="type" />
+          <label for="scales">Chalet</label>
+        </div>
+        <div class="filter-label--check">
+          <input class="btn btn-danger" type="button" onclick="filter()" value="Rechercher" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container-pageLinks">
+    <div id="pageLinks"></div>
+  </div>
+  <br>
+  <table class="table table-striped table-borderless" style="text-align: center ;" id="data"></table>
+  <br>
+  <div style="display: none; width: 1200px; justify-content: space-around;">
+    <div>
+      Mes Biens Favorits
+      <br>
+      <br>
+      <table id="tblFavorite">
+        <tr>
+          <th>ID</th>
+          <th>Prix</th>
+          <th>Localisation</th>
+          <th>Type de Bien</th>
+          <th>Nombre de Pièces</th>
+          <th>Surface</th>
+          <th>Sejour</th>
+          <th>Description</th>
+          <th>Image</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <form class="container1">
+    <table id="tblBien" style="display: none; border: 1px solid; border-radius: 5px; padding: 10px;">
+      <tr>
+        <th colspan="2" style="text-align: center">Formulaire :</t>
+      </tr>
+      <tr>
+        <td>
+          <label for="Prix">Prix :</label>
+        </td>
+        <td>
+          <input type="text" id="txtPrix" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Localisation">Localisation :</label></td>
+        <td>
+          <input type="text" id="txtLocalisation" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="TypeBien">Type de Bien :</label></td>
+        <td>
+          <select name="TypeBien" id="txtTypeBien" required class="form-control">
+            <option value="Appartement">Appartement</option>
+            <option value="Maison">Maison</option>
+            <option value="Appartement">Villa</option>
+            <option value="Maison">Chalet</option>
+            <option value="Appartement">Penthouse</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="NbPieces">Nombre de Pièces :</label></td>
+        <td>
+          <input type="text" id="txtNbPieces" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Surface">Surface :</label></td>
+        <td>
+          <input type="text" id="txtSurface" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Sejour">Séjour :</label></td>
+        <td>
+          <input type="text" id="txtSejour" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Description">Description :</label></td>
+        <td>
+          <input type="text" id="txtDescription" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="image">Image :</label></td>
+        <td>
+          <input type="text" id="txtImage" size="12" required class="form-control" />
+        </td>
+      </tr>
+      <tr>
+        <td><input type="hidden" id="hId" /></td>
+        <td>
+          <button type="button" class="btn btn-primary" onclick="Submit()" id="btnUpdate">
+            Submit
+          </button>
+          <button type="button" class="btn btn-danger" onclick="cancelBienForm()" id="btnCancel">
+            Cancel
+          </button>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

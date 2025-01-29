@@ -1,0 +1,66 @@
+
+
+/*Milieux de Page*/
+.articles {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.articles__title {
+  font-size: 30px;
+  color: #333;
+  border-bottom: 4px solid #0b004b;
+  display: inline;
+}
+
+.articles__paragraphe{
+  width: 50%;
+  padding: 10px;
+  margin-left: 320px;
+  border: 2px solid #0b004b;
+  border-radius: 30px;
+}
+
+.bien {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  border: 1px solid;
+  float: left;
+  text-align: center;
+}
+
+.info__bien {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  border: 1px solid;
+  float: right;
+  text-align: center;
+}
+
+.container1{
+  border: 1px solid;
+}
+/*Milieux de Page*/
+
+
+/*test*/
+#milieux-droit {
+  width: 450px;
+  height: auto;
+  margin: 10px;
+  float: left;
+  text-align: center;
+
+}
+
+#milieux-gauche {
+  width: 600px;
+  height: 500px;
+  margin: 10px;
+  border: 5px solid;
+  float: right;
+  text-align: center;
+  border-radius: 50px;
+}

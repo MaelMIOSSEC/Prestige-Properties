@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fichier Test</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/db1bcb269d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../biens1.css" type="text/css" />
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .property-details {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .property-image img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .property-info {
+        padding: 40px 0;
+    }
+
+    .property-info h2 {
+        color: #333;
+    }
+
+    .property-info p {
+        color: #666;
+        margin: 5px 0;
+    }
+
+    .price {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #e44d26;
+    }
+
+    .property-description {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .property-description h2 {
+        color: #333;
+    }
+
+    .property-description p {
+        color: #666;
+        line-height: 1.5;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+
+<body>
+
+    <div class="header">
+        <div class="header__texture"></div>
+        <div class="header__mask">
+            <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="fff"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="header__navbar">
+                <div class="header__navbar--logo">
+                    <h1 class="header__navbar--logo--title">Prestige Properties</h1>
+                </div>
+                <div class="header__navbar--menu">
+                    <a href="" class="header__navbar--menu--link"><i class="fa-brands fa-sellcast"></i> Vendre</a>
+                    <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-phone"></i> Nous Contacter</a>
+                    <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-circle-info"></i> A Propos</a>
+                    <div class="header__navbar--toggle">
+                        <span class="header__navbar--toggle--icons"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__slogan">
+                <h1 class="h__slogan--title">Découvrez le luxe immobiliers.</h1>
+                <button onclick="window.location.href = '../../biens.html';" class="btn btn-danger"><i class="fa-solid fa-house"></i> Nos Biens</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="property-details">
+        <div id="milieux-droit">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-685159106765013481/original/de384daa-1a95-44ab-ab8c-6f0129a17611.jpeg?im_w=1440"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://a0.muscache.com/im/pictures/c75e5a1d-0364-4a20-b957-ef3118601e12.jpg?im_w=1440"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://a0.muscache.com/im/pictures/765c37fe-cc7a-4d33-9852-5d9c52a28090.jpg?im_w=1200"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="property-info">
+            <p class="price">Prix: 26 000 000€</p>
+            <p class="area">Surface: 512 m²</p>
+            <p class="property-type">Type de Bien: Appartement de Luxe</p>
+            <p class="rooms">Nombre de Pièces: 6</p>
+            <p class="living-room">Taille du Séjour: 427,2 m²</p>
+            <p class="location">Localisation: Monaco</p>
+        </div>
+    </section>
+
+    <section class="property-description">
+        <h2>Description</h2>
+        <p>
+            Résidence de prestige dans le quartier de Saint Roman / La Rousse. Immeuble avec service de conciergerie
+            24/7, navette vers le centre, piscine, hammam, jacuzzi, spa. Autres services sur demande: voiturier,
+            pressing, chef, babysitting, ménage dans les appartements... Ce 6 pièces se situe au 22° étage. Il se
+            compose d'une entrée avec toilettes invités, d'un double séjour, d'une cuisine équipée, de 4 chambres - dont
+            une suite de maitre - et d'une buanderie. Toutes les pièces ouvrent sur des loggias. Cave et 2 parkings.
+        </p>
+    </section>
+
+    <footer>
+        <div class="contenu-footer">
+            <div class="bloc footer-contact">
+                <h3>Nos Services</h3>
+                <p>Herbergement</p>
+                <p>Nom de domaine</p>
+                <p>E-Commerce</p>
+                <p>Machine Learning</p>
+                <p>Finances</p>
+            </div>
+            <div class="bloc footer-contact">
+                <h3>Restons en Contact</h3>
+                <p>55-55-55-55-55</p>
+                <p>Suppor.Client@gmail.com</p>
+                <p>6 rue de l'invention, Brest, 29200</p>
+            </div>
+            <div class="block footer-horaire">
+                <h3>Les horraires</h3>
+                <p>✔️ Lun 9h30-18h30</p>
+                <p>✔️ Mar 9h30-18h30</p>
+                <p>✔️ Mer 9h30-18h30</p>
+                <p>✔️ Jeu 9h30-18h30</p>
+                <p>✔️ Ven 9h30-18h30</p>
+                <p>✔️ Sam 9h30-12h00</p>
+                <p>❌ Dim closed</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

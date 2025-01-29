@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fichier Test</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/db1bcb269d.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<style>
+  /*Milieux de Page*/
+  .bandeau-haut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .middle__paragraphe {
+    margin-top: 100px ;
+    width: 50%;
+    height: 100%;
+    border-bottom: 1px solid #0b004b;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgba(11, 0, 75, 0.5);
+  }
+
+  .title {
+    border-bottom: 1px solid #0b004b;
+    font-family: "Anton";
+  }
+
+  .middle__biens {
+    width: 56%;
+    height: 100%;
+    margin-left: 450px;
+    font-family: "Anton";
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(11, 0, 75, 0.5);
+    color: white;
+  }
+
+  .info--bien {
+    border: 1px solid;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .articles {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .articles__title {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    border-bottom: 4px solid #0b004b;
+    display: inline;
+  }
+
+  .articles__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .article {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .article__filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  }
+
+  .article__name {
+    color: white;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article:hover .article__icon {
+    transform: translateY(0);
+  }
+
+  .article__icon {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);
+  }
+
+  /*Milieux de Page*/
+</style>
+
+<body>
+  <div class="header">
+    <div class="header__texture"></div>
+    <div class="header__mask">
+      <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="fff"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="header__navbar">
+        <div class="header__navbar--logo">
+          <h1 class="header__navbar--logo--title">Prestige Properties</h1>
+        </div>
+        <div class="header__navbar--menu">
+          <a href="" class="header__navbar--menu--link"><i class="fa-brands fa-sellcast"></i> Vendre</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-phone"></i> Nous Contacter</a>
+          <a href="" class="header__navbar--menu--link"><i class="fa-solid fa-circle-info"></i> A Propos</a>
+          <div class="header__navbar--toggle">
+            <span class="header__navbar--toggle--icons"></span>
+          </div>
+        </div>
+      </div>
+      <div class="header__slogan">
+        <h1 class="h__slogan--title">Découvrez le luxe immobiliers.</h1>
+        <button class="btn btn-danger" onclick="window.location.href = 'pages/biens.html';">
+          <i class="fa-solid fa-house"></i> Nos Biens
+        </button>
+        <button class="btn btn-danger" onclick="window.location.href = 'pages/gestion.html';">
+          <i class="fa-solid fa-house"></i> Gestion des Biens
+        </button>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+  <div class="middle">
+    <div class="bandeau-haut">
+      <div class="photo">
+        <img style="border-radius: 20px;" src="img/2021-05-19-J14-04-920x540.jpg" width="700px">
+      </div>
+      <div class="middle__paragraphe">
+        <h2 class="title">
+          Propriétés, villas, maisons et appartements de luxe à vendre en France
+          :
+        </h2>
+        <p>
+          Bienvenue chez Prestige Properties ! Nous vous proposerons, sur notre
+          site, notre sélection des meilleurs Biens immobiliers en vente sur le
+          territoire Français à l'heure actuelle. Vous souhaitez devenir
+          l'heureux ou l'heureuse proprietaire d'un magnifique manoir, un
+          chateau ou encore une Villa ? Nous vous confirmons que vous êtes au
+          bon endroit.
+        </p>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="middle__biens">
+      <h2>Nos Meilleurs biens :</h2>
+      <table cellpadding="10" cellspacing="10">
+        <tr>
+          <th>
+            <div class="article"
+              style="background: url('https://a0.muscache.com/im/pictures/811d6559-5cb1-4ad3-a231-b481b744e047.jpg?im_w=1200'); background-size: cover;">
+              <div class="article__filter">
+              </div>
+              <div class="article__icon"><button class="btn btn-danger"
+                  onclick="window.location.href = 'pages/Biens/bien13.html';">En savoir +</button></div>
+            </div>
+          </th>
+          <th>
+            <div class="article"
+              style=" background: url('https://a0.muscache.com/im/pictures/miso/Hosting-13656666/original/d12e3ac3-7750-48f8-b227-24be5a5f0b0a.jpeg?im_w=1200'); background-size: cover;">
+              <div class="article__filter"></div>
+              <div class="article__icon"><button class="btn btn-danger"
+                  onclick="window.location.href = 'pages/Biens/bien16.html';">En savoir +</button></div>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <div class="article"
+              style="background: url('https://a0.muscache.com/im/pictures/miso/Hosting-757063821048756638/original/8d4a1491-82df-4a5d-bed7-4b68ff69c39f.jpeg?im_w=1440'); background-size: cover;">
+              <div class="article__filter"></div>
+              <div class="article__icon"><button class="btn btn-danger"
+                  onclick="window.location.href = 'pages/Biens/bien4.html';">En savoir +</button></div>
+            </div>
+          </th>
+          <th>
+            <div class="article"
+              style="background: url('https://a0.muscache.com/im/pictures/miso/Hosting-32917458/original/b63a01d6-2b19-4567-9740-12c2f686b6ac.jpeg?im_w=1440'); background-size: cover;">
+              <div class="article__filter"></div>
+              <div class="article__icon"><button class="btn btn-danger"
+                  onclick="window.location.href = 'pages/Biens/bien17.html';">En savoir +</button></div>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br /><br />
+  <footer>
+    <div class="contenu-footer">
+      <div class="bloc footer-contact">
+        <h3>Nos Services</h3>
+        <p>Vente de Biens</p>
+        <p>Location de Biens</p>
+        <p>Achat de Biens</p>
+      </div>
+      <div class="bloc footer-contact">
+        <h3>Restons en Contact</h3>
+        <p>55-55-55-55-55</p>
+        <p>Suppor.Client@gmail.com</p>
+        <p>6 rue de l'invention, Brest, 29200</p>
+      </div>
+      <div class="block footer-horaire">
+        <h3>Les horraires</h3>
+        <p>✔️ Lun 9h30-18h30</p>
+        <p>✔️ Mar 9h30-18h30</p>
+        <p>✔️ Mer 9h30-18h30</p>
+        <p>✔️ Jeu 9h30-18h30</p>
+        <p>✔️ Ven 9h30-18h30</p>
+        <p>✔️ Sam 9h30-12h00</p>
+        <p>❌ Dim closed</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

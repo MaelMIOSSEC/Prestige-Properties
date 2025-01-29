@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bdd>
+    <bien>
+        <ID>1</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-857762193414713194/original/cf704c74-4b0b-4764-bd9f-2d51c492113f.jpeg?im_w=1200</image>
+        <prix>14 584 000€</prix>
+        <localisation>Chamonix-Mont-Blanc</localisation>
+        <type_bien>Chalet</type_bien>
+        <nbpieces>12</nbpieces>
+        <surface>1 465m²</surface>
+        <sejour>653m²</sejour>
+        <description>Avec plus de 550 m² habitable et 100 m² de terrasse et balcon, ce chalet construit en 2018 peut accueillir jusqu’à 14 personnes avec un accès direct aux pistes de ski du Savoy et du Brévent depuis le jardin. Chaque détail a été pensé afin d’offrir un confort absolu avec des équipements modernes et des espaces de vie spacieux.</description>
+    </bien>
+    <bien>
+        <ID>2</ID>
+        <image>https://a0.muscache.com/im/pictures/monet/Luxury-578072673038532316/original/5953cf7e-4bf6-405c-b2b3-baa33d2d82e0?im_w=1440</image>
+        <prix>13 800 000€</prix>
+        <localisation>Saint-Tropez</localisation>
+        <type_bien>Villa</type_bien>
+        <nbpieces>9</nbpieces>
+        <surface>1 777m²</surface>
+        <sejour>450m²</sejour>
+        <description>À Saint-Tropez, cette villa à vendre offre une belle vue sur la mer. Cette maison vous propose une surface intérieure de 450 m², ainsi que l'avantage de la proximité de la mer, de l'aéroport et de la plage. Elle est constituée d'un séjour, d'une salle à manger, d'un salon, de 7 chambres (dont une suite parentale), de 4 salles de bain et d'une cuisine américaine. Profitez d'une piscine dans l'espace détente. Un garage est également vendu avec cette villa. Sa superbe vue en fait un bien hors du commun.</description>
+    </bien>
+    <bien>
+        <ID>3</ID>
+        <image>https://a0.muscache.com/im/pictures/26d62ee8-655c-40b3-95bd-d1910bb04785.jpg?im_w=1200</image>
+        <prix>16 800 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Penthouse</type_bien>
+        <nbpieces>4</nbpieces>
+        <surface>280m²</surface>
+        <sejour>140m²</sejour>
+        <description>Une des plus belle vues de la Principauté ! Dans un immeuble bourgeois situé sur l'Avenue de Grande Bretagne, à quelques pas du Casino et proche des plages, ce Superbe Duplex roof a été entièrement rénové avec gout. L'appartement d'environ 140m² se compose au niveau principal d’un spacieux double séjour, d’une cuisine équipée, de 2 chambres, Salle de bain, salle de douche, bureau, buanderie. Escaliers internes menant au niveau supérieur comprenant une Kitchenette et une spacieuse terrasse de la taille de l'appartement.</description>
+    </bien>
+    <bien>
+        <ID>4</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-757063821048756638/original/8d4a1491-82df-4a5d-bed7-4b68ff69c39f.jpeg?im_w=1440</image>
+        <prix>38 700 000€</prix>
+        <localisation>Courchevel</localisation>
+        <type_bien>Chalet</type_bien>
+        <nbpieces>12</nbpieces>
+        <surface>1 363m²</surface>
+        <sejour>884m²</sejour>
+        <description>Ce chalet de prestige idéalement situé au cœur du prestigieux village de Courchevel 1850, construit de matériaux noble et éco-responsable, ce chalet peut accueillir 16 personnes dans ses 8 chambres, son immense pièce à vivre avec salon cathédrale et ses deux cuisines. Il vous offre des prestations haut de gamme et de qualité tel qu’un espace détente avec piscine, hammam, sauna, salle de massage, salle de sport et salon de thé.</description>
+    </bien>
+    <bien>
+        <ID>5</ID>
+        <image>https://a0.muscache.com/im/pictures/7816a7c8-cf0c-4c52-aaec-da198d065295.jpg?im_w=1440</image>
+        <prix>28 000 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Appartement</type_bien>
+        <nbpieces>5</nbpieces>
+        <surface>500m²</surface>
+        <sejour>331m²</sejour>
+        <description>Le Seaside est un bel immeuble de standing avec service de conciergerie, piscine et salle de gym. Situé dans le quartier agréable de Fontvieille, à proximité des jardins et de la galerie marchande. Cet appartement familial en excellent état bénéficie de beaux espace de vie ainsi qu'une terrasse offrant une magnifique vue sur le port et la mer. Une cave et 2 parkings complètent ce bien.</description>
+    </bien>
+    <bien>
+        <ID>6</ID>
+        <image>https://a0.muscache.com/im/pictures/57bd4306-4d90-453f-afcf-a9d1db590ecf.jpg?im_w=1200</image>
+        <prix>20 900 000€</prix>
+        <localisation>Nice</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>5</nbpieces>
+        <surface>8 600m²</surface>
+        <sejour>550m²</sejour>
+        <description>Cette magnifique demeure est une villa d’architecte par excellence. Elle se situe entre le Cap Ferrat et la baie des Anges. Cette somptueuse propriété possède 8600 m² d'espaces extérieurs, aménagés en jardin paysagé où prend place une magnifique piscine à débordement . L’entrée s’effectue par le toit. Un funiculaire, doublé d’un escalier, rallie les deux étages à vivre : les quatre suites et le salon-cuisine-salle à manger.</description>
+    </bien>
+    <bien>
+        <ID>7</ID>
+        <image>https://a0.muscache.com/im/pictures/aa5e3f42-e762-4f69-abcf-e036af10609b.jpg?im_w=1200</image>
+        <prix>13 500 000€</prix>
+        <localisation>Aix-En-Provence</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>40</nbpieces>
+        <surface>12 000m²</surface>
+        <sejour>1 300m²</sejour>
+        <description>Il s'agit d'un bien immobilier exceptionnel, rare sur le marché, qui est un complexe hôtelier de 5 étoiles d'une superficie totale d'environ 1300 m² sur un terrain de 12 hectares. Situé à 40 minutes d'Aix-en-Provence dans un cadre verdoyant et paisible, il est entièrement rénové avec une décoration provençale authentique, et est entouré d'un parc comprenant des chênes, des oliviers et des champs de lavande. L'hôtel dispose de 20 chambres haut de gamme, dont 6 suites de prestige, un restaurant pouvant accueillir environ 80 personnes, un spa avec une piscine intérieure, des salles de massage, un sauna, un hammam et une salle de sport, une piscine extérieure avec un jacuzzi, un parcours de golf de 9 trous, un practice et une boutique de golf. En outre, il y a la possibilité de construire des espaces de réception et une trentaine de chambres supplémentaires. Vous serez séduit par le calme verdoyant et la qualité de la rénovation de cette propriété unique aux portes du Luberon. Mandat n°731 - Aix-en-Provence Sotheby's International Realty, la référence internationale de l'immobilier de Prestige à Aix-en-Provence.</description>
+    </bien>
+    <bien>
+        <ID>8</ID>
+        <image>https://a0.muscache.com/im/pictures/a3315788-c0cc-40a4-8c9c-a5f6bbcd9398.jpg?im_w=1440</image>
+        <prix>9 950 000€</prix>
+        <localisation>CHamonix-Mont-Blanc</localisation>
+        <type_bien>Chalet</type_bien>
+        <nbpieces>18</nbpieces>
+        <surface>1 342m²</surface>
+        <sejour>654m²</sejour>
+        <description>À seulement quelques minutes du centre-ville et du Domaine Skiable du Brévent, la propriété réalisée en 2023 se distingue par un développement exceptionnel de deux chalets d’une surface totale de plus de 630m² dans un écrin de verdure arboré de plus de 1300m². Le chalet principal « Kamila » se développe sur 3 niveaux et 417m² et communique avec le chalet d’invités « Kami », également développé sur 3 niveaux et 213m². Ils peuvent accueillir réunis jusqu’à 16 personnes très confortablement. Les espaces généreux et lumineux ainsi que les matériaux nobles qui agrémentent les lieux font de cette propriété un bien rare. Sauna, hammam, deux garages fermés, places de parking extérieurs.</description>
+    </bien>
+    <bien>
+        <ID>9</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-767797577470611200/original/1fb6cba4-906e-41b8-ae10-f800bda65f24.jpeg?im_w=1440</image>
+        <prix>12 000 000€</prix>
+        <localisation>Nice</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>10</nbpieces>
+        <surface>30 000m²</surface>
+        <sejour>900m²</sejour>
+        <description>Cette propriété située sur la Grande Corniche près de Nice en limite de Villefranche-sur-Mer est exceptionnelle à bien des égards. Elle offre une vue imprenable sur la Baie des Anges ainsi qu'un panorama sur la ville et les montagnes environnantes. Le terrain s'étend sur près de 4 hectares et comprend plusieurs bâtiments tels qu'une maison principale de 750 m², une maison de gardien, une maison de jardinier, une serre, une piscine, un court de tennis et un étang.</description>
+    </bien>
+    <bien>
+        <ID>10</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-813739922137109636/original/6a87c39c-029c-49a3-aad3-58fe06865866.jpeg?im_w=1200</image>
+        <prix>8 925 000€</prix>
+        <localisation>Cap-Ferret</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>8</nbpieces>
+        <surface>739m²</surface>
+        <sejour>300m²</sejour>
+        <description>Nichée dans un emplacement d'exception, en première ligne, une magnifique maison d'environ 300 m² ainsi qu'une grande dépendance composée d’un studio, d’un T2 et d’un grand garage, vous accueille dans une ambiance paisible. Idéalement située en plein coeur du Cap Ferret, à proximité des lieux de vie, le sable à vos pieds avec un accès privé à la plage.</description>
+    </bien>
+    <bien>
+        <ID>11</ID>
+        <image>https://a0.muscache.com/im/pictures/monet/Luxury-685155550999356639/original/b921e0eb-ffa5-4a47-afd4-2732b6399033?im_w=1440</image>
+        <prix>9 999 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Appartement</type_bien>
+        <nbpieces>3</nbpieces>
+        <surface>200m²</surface>
+        <sejour>159m²</sejour>
+        <description>Appartement à Monaco. Bien immobilier de 159 m² disponible à la vente. Ce bien se trouve dans le quartier condamine. Sa situation géographique est parfaite. En effet, une rue commerçante, un centre commercial (800 m), une plage (1 km) et une rue piétonne (350 m) sont à proximité. Il s'agit d'un 3 pièces.</description>
+    </bien>
+    <bien>
+        <ID>12</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-938390308512137866/original/f2ff61cb-2fdb-466b-a41f-c04ef59ddfce.jpeg?im_w=1440</image>
+        <prix>4 950 000€</prix>
+        <localisation>Paris</localisation>
+        <type_bien>Appartement</type_bien>
+        <nbpieces>7</nbpieces>
+        <surface>500m²</surface>
+        <sejour>213m²</sejour>
+        <description>Superbe duplex de 213m² en rez-de-jardin d'un bel immeuble moderne ouvrant sur des terrasses et un jardin de 500m² avec jouissance exclusive. Il se compose en rez de jardin d'un double séjour avec cuisine américaine ouverts sur une terrasse et un jardin, d'une chambre avec sa salle d'eau et sa terrasse et d'une deuxième chambre. Le 1er étage offre une chambre spacieuse avec sa salle d'eau et son balcon et une chambre avec salle de bains. Une cave et deux places de parking complètent ce bien. Possibilité d'acquérir en sus un studio de 15m² situé au 1er étage de l'immeuble. La campagne en plein coeur du 17ème. Luminosité, élégance et grand calme!</description>
+    </bien>
+    <bien>
+        <ID>13</ID>
+        <image>https://a0.muscache.com/im/pictures/811d6559-5cb1-4ad3-a231-b481b744e047.jpg?im_w=1200</image>
+        <prix>120 000 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Villa</type_bien>
+        <nbpieces>13</nbpieces>
+        <surface>25 000m²</surface>
+        <sejour>3 000m²</sejour>
+        <description>Magnifique résidence inspirée de l'architecture byzantine et vénitienne, le Palais Vénitien, en position dominante, surplombe Cannes et offre un magnifique panorama sur les eaux bleues de la Méditerranée qui s'étendent à perte de vue. Ses 2,4 hectares englobent une multitude d'équipements luxueux, y compris un lac, un court de tennis, des bois isolés et une grande piscine extérieure.</description>
+    </bien>
+    <bien>
+        <ID>14</ID>
+        <image>https://a0.muscache.com/im/pictures/monet/Luxury-665650297608988780/original/d9ccb15f-05bf-46f2-915d-50cbf2e16c2f?im_w=1440</image>
+        <prix>19 200 000€</prix>
+        <localisation>Courchevel</localisation>
+        <type_bien>Chalet</type_bien>
+        <nbpieces>10</nbpieces>
+        <surface>753m²</surface>
+        <sejour>417m²</sejour>
+        <description>Le chalet ÉLAN récemment remis à neuf, dispose d'une superficie habitable de 417 m² et est situé dans la prestigieuse station de Courchevel 1850. Idéalement situé il offre un accès rapide aux pistes de ski. Ce chalet de luxe répartit sur 4 niveaux est un véritable cocon authentique et paisible, rénové avec des matériaux nobles dans le respect de l'authenticité des chalets traditionnels. Alliant charme et modernité, cette propriété propose des prestations haut de gamme et de qualité. Le chalet dispose de 6 chambres. Il comprend également un espace détente avec une piscine, un sauna, un hammam et une salle de massage.</description>
+    </bien>
+    <bien>
+        <ID>15</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-831741423443173223/original/e645468b-84e5-4cdc-9b8a-26cda79d8e8d.jpeg?im_w=1440</image>
+        <prix>8 800 000€</prix>
+        <localisation>Chamonix-Mont-Blanc</localisation>
+        <type_bien>Chalet</type_bien>
+        <nbpieces>19</nbpieces>
+        <surface>2 099m²</surface>
+        <sejour>467,68m²</sejour>
+        <description>Ce magnifique chalet tout confort fait en rondins par un architecte, est un bien exceptionnel dans la vallée de Chamonix par sa surface (467m²), son architecture très originale, son emplacement très prisé dans le secteur des Tines et ses équipements. Composé d'une magnifique piscine extérieure chauffée de 64m² avec 1m de volet avec nage à contre-courant, un jacuzzi extérieur de 6 places et dans le chalet un espace bien-être avec un sauna, un hammam et une salle de sport toute équipée donnant accès à la piscine avec la vue sur le Mont-Blanc.</description>
+    </bien>
+    <bien>
+        <ID>16</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-13656666/original/d12e3ac3-7750-48f8-b227-24be5a5f0b0a.jpeg?im_w=1200</image>
+        <prix>46 000 000€</prix>
+        <localisation>Saint-Jean-Cap-Ferrat</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>10</nbpieces>
+        <surface>4 100m²</surface>
+        <sejour>595m²</sejour>
+        <description>Idéalement intégrée à son environnement, cette villa contemporaine d'environ 600 m², possède une magnifique luminosité grâce à son orientation Sud/Ouest. Toutes les pièces de la maison offrent une vue spectaculaire sur la baie. La principauté de Monaco et Nice ne se trouvent qu’à quelques kilomètres à peine de cette demeure qui se situe au cœur de Saint-Jean-Cap-Ferrat. Entièrement meublée avec un goût très sûr, cette villa en verre entièrement domotisée est composé d'une cuisine de 2 salons d'un séjour mais également de 5 chambres en suite avec un balcon, toutes avec leur propre salle de bain. L’électroménager est lui aussi haut de gamme comme toute la décoration et les matériaux de construction.</description>
+    </bien>
+    <bien>
+        <ID>17</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-32917458/original/b63a01d6-2b19-4567-9740-12c2f686b6ac.jpeg?im_w=1440</image>
+        <prix>31 500 000€</prix>
+        <localisation>Valbonne</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>15</nbpieces>
+        <surface>18 000m²</surface>
+        <sejour>1 160m²</sejour>
+        <description>Un Domaine d’exception à vendre entre Valbonne et Mougins : le Domaine de Beaumont, élégante demeure historique. Le Domaine de Beaumont, situé entre le village de Mougins et Valbonne, à quelques minutes de Cannes, sur la Côte d’Azur. Véritable havre de paix où règnent charme et authenticité, ce prestigieux domaine privé situé au sommet d’une colline boisée accueille en position dominante une demeure historique édifiée en 1920 et offrant de très beaux volumes, ainsi qu’une cour d’honneur tout à fait remarquable.</description>
+    </bien>
+    <bien>
+        <ID>18</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-685159106765013481/original/de384daa-1a95-44ab-ab8c-6f0129a17611.jpeg?im_w=1440</image>
+        <prix>26 000 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Appartement</type_bien>
+        <nbpieces>6</nbpieces>
+        <surface>512m²</surface>
+        <sejour>427,2m²</sejour>
+        <description>Résidence de prestige dans le quartier de Saint Roman / La Rousse. Immeuble avec service de conciergerie 24/7, navette vers le centre, piscine, hammam, jacuzzi, spa. Autres services sur demande: voiturier, pressing, chef, babysitting, ménage dans les appartements... Ce 6 pièces se situe au 22° étage. Il se compose d'une entrée avec toilettes invités, d'un double séjour, d'une cuisine équipée, de 4 chambres - dont une suite de maitre - et d'une buanderie. Toutes les pièces ouvrent sur des loggias. Cave et 2 parkings.</description>
+    </bien>
+    <bien>
+        <ID>19</ID>
+        <image>https://a0.muscache.com/im/pictures/miso/Hosting-744839707052840621/original/81bde80c-f8b0-4d55-857a-c53f1a279941.jpeg?im_w=1440</image>
+        <prix>7 315 000€</prix>
+        <localisation>Cap-Ferret</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>8</nbpieces>
+        <surface>1 324m²</surface>
+        <sejour>230m²</sejour>
+        <description>Magnifique villa de plain-pied et sa maison d'invité, situées en première ligne dans l'un des endroits les plus prisés du Cap Ferret, le Mimbeau. Ce bien d'exception bénéficie d'une splendide vue et se compose d'un salon-salle à manger, d'une cuisine ouverte, de 3 chambres ainsi que de 2 salles d'eau. La dépendance dispose d'un salon et d'une cuisine ouverte au rez-de-chaussée, à l'étage, 3 chambres et une salle d'eau.</description>
+    </bien>
+    <bien>
+        <ID>20</ID>
+        <image>https://a0.muscache.com/im/pictures/3abf5f29-5a5f-4116-aea9-454ff5e8a925.jpg?im_w=1440</image>
+        <prix>6 900 000€</prix>
+        <localisation>Cannes</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>9</nbpieces>
+        <surface>1 602m²</surface>
+        <sejour>375m²</sejour>
+        <description>En plein centre de Cannes, à proximité immédiate du centre ville et des plages de la Croisette, Sotheby's Côte d'Azur Cannes vous propose cette magnifique Villa de style Belle Epoque, totalement rénovée. Construite en 1875 et ayant appartenu à l'emblématique Maire de Cannes André Capron, la propriété conjugue son charme ancien à un art de vivre résolument moderne. Une cuisine toute équipée, un salon d'été, un salon d'hiver, une salle à manger, une bibliothèque et quatre chambres avec dressings et salles de bain constituent les espaces intérieurs sur 375m².</description>
+    </bien>
+    <bien>
+        <ID>21</ID>
+        <image>https://a0.muscache.com/im/pictures/c6f83eb2-b996-4e5a-b639-f80785d155d5.jpg?im_w=1200</image>
+        <prix>28 000 000€</prix>
+        <localisation>Monaco</localisation>
+        <type_bien>Penthouse</type_bien>
+        <nbpieces>6</nbpieces>
+        <surface>612m²</surface>
+        <sejour>464m²</sejour>
+        <description>La Villa Annonciade est une résidence de luxe avec concierge située dans un quartier résidentiel proche des commerces, des écoles et du Monte-Carlo Country Club. Le triplex se situe au 3 derniers niveaux et se compose : 9° étage: 4 chambres avec salles de douche, 2 dressings, loggia. 10° étage: séjour, salle à manger, cuisine équipée, buanderie, wc invités, loggia 11° étage: toit terrasse avec jacuzzi, salle de douche avec wc. Tous les étages sont connectés par ascenseur et bénéficient d'une magnifique vue sur la mer.</description>
+    </bien>
+    <bien>
+        <ID>22</ID>
+        <image>https://a0.muscache.com/im/pictures/bd94b962-4378-4768-ad38-c1551266a6d3.jpg?im_w=1440</image>
+        <prix>1 560 000€</prix>
+        <localisation>Aix-En-Provence</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>7</nbpieces>
+        <surface>1 700m²</surface>
+        <sejour>225m²</sejour>
+        <description>Enorme potentiel pour cette charmante maison à rafraîchir des années 30 d'une superficie de 224m², sans vis à vis, édifiée sur un terrain piscinable de 1700m² environ, à 10 minutes à pied seulement du centre ville et proche de toutes commodités. La maison principale se compose d'un rez de chaussée et d'un rez de jardin qui se répartissent ainsi: Une vaste pièce de réception de 56m² très lumineuse avec un accès terrasse et jardin ainsi qu'une cuisine indépendante et une buanderie. L'espace nuit, au rez de chaussée, est quant à lui composé de 4 grandes chambres, 2 salles de bains et des combles aménagés de 43 m².</description>
+    </bien>
+    <bien>
+        <ID>23</ID>
+        <image>https://a0.muscache.com/im/pictures/2c5d46fa-93b4-4253-ace7-689f4e001e48.jpg?im_w=1440</image>
+        <prix>3 990 000€</prix>
+        <localisation>Arcachon</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>5</nbpieces>
+        <surface>740m²</surface>
+        <sejour>210m²</sejour>
+        <description>Cette superbe villa d’architecture bénéficie d’une situation idéale, nichée dans un cadre verdoyant et paisible, à seulement 200 mètres de la jetée du Moulleau et des commerces.</description>
+    </bien>
+    <bien>
+        <ID>24</ID>
+        <image>https://a0.muscache.com/im/pictures/f6070006-7804-4616-8805-829e39a48d41.jpg?im_w=1440</image>
+        <prix>21 000 000€</prix>
+        <localisation>Saint-Tropez</localisation>
+        <type_bien>Maison</type_bien>
+        <nbpieces>10</nbpieces>
+        <surface>20 000m²</surface>
+        <sejour>406m²</sejour>
+        <description>Sur 2 hectares de parc exposé Sud complanté de pins et essences méditerranéennes, cette maison prestigieuse offre calme et intimité. A proximité du centre du village et de la plage des Canoubiers, elle propose des prestations de grand standing et profite d'une piscine de 15 m de long. En parfait état, la demeure principale, sur deux niveaux, propose des volumes confortables sur 406 m² : elle se compose d'une belle réception avec cheminée ouvert sur l’extérieur, une salle à manger, une cuisine équipée, une suite de maitre, 3 chambres en suite, ainsi que deux suites invités indépendantes. Il y a également 350 m² de surface annexe disponible.</description>
+    </bien>
+</bdd>
